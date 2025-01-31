@@ -23,4 +23,4 @@ This project is part of **ACL Task A** from the **ACL Shared Task on Sentiment A
 - **Enhanced Fairness:** Fine-tuning helped mitigate biases, leading to more balanced precision and recall values.
 
 ## 🚀 Contributors:
-Aya El-Dassouki: dassoukiaya24@gmail.com & Deepansh Batra: deepanshbatra13@gmail.com
+Deepansh Batra: deepanshbatra13@gmail.com & Aya El-Dassouki: dassoukiaya24@gmail.com 
