@@ -1,14 +1,13 @@
 # ACL Task A – Sentiment Analysis
 
 ## 📌 Project Overview
-This project is part of **ACL Task A** from the **ACL Shared Task on Sentiment Analysis**, where we fine-tuned **Google's Gemini LLM** to enhance sentiment classification performance. The goal was to accurately classify text samples based on emotional tone while considering **bias and fairness metrics** in language model outputs.
+This project was conducted as part of SemEval-2025 Task 11 – Bridging the Gap in Text-Based Emotion Detection, specifically focusing on Track A: Multi-label Emotion Detection. The task aimed to predict the perceived emotions in a given text snippet across five categories: joy, sadness, anger, fear, and surprise.
 
 ## 🚀 Methods Used
 - **Dataset Preparation:** Preprocessed text data for sentiment classification.
-- **Model Fine-Tuning:** Fine-tuned **Gemini LLM** for improved classification accuracy.
+- **Model Fine-Tuning:** We tested the performance of several models (both SLMs and LLMs) before and after fine tuning. 
 - **Prompt Engineering:** Experimented with various prompt structures to optimize results.
-- **Evaluation Metrics:** Used accuracy, precision, recall, and **fairness metrics** to assess model performance.
-
+  
 ## 🔬 Results & Findings
 
 ### Classification Performance by Model:
@@ -25,6 +24,11 @@ This project is part of **ACL Task A** from the **ACL Shared Task on Sentiment A
 - **DistilBERT (Non-Fine-Tuned):** Showed poor performance across all categories, highlighting the need for fine-tuning.
 - **DistilBERT (Fine-Tuned):** Demonstrated significant improvements, particularly for fear (F1: 81%) and sadness (F1: 67%).
 - **Gemini (Fine-Tuned):** Delivered the best overall performance, with F1-scores above 77% across all emotions.
+
+### Future Work:
+- **Fine-tune Additional Models**
+- **Implement RAG (Retrieval-Augmented Generation)**
+ 
 
 ---
 
